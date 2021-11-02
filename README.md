@@ -4,13 +4,13 @@ Use this repository (repo, for short) to practice skills as we work on them in c
 
 ### Files
 * [print/input](src/print_input.py)
- * printing messages, getting inputs from the user and combining those skills to create an interactive program
+  * printing messages, getting inputs from the user and combining those skills to create an interactive program
 * [variable practice](src/variables.py)
- * data types, working with strings, mathematical operations
+  * data types, working with strings, mathematical operations
 * [functions](src/functions.py)
- * defining, writing and calling your own functions 
+  * defining, writing and calling your own functions 
 * [if statements & booleans](src/if_statements.py)
- * boolean values and conditions, if-elif-else blocks 
+  * boolean values and conditions, if-elif-else blocks 
 * [for loops](src/for_loops.py)
 * [while loops](src/while_loops.py)
 * [lists](src/lists.py) 
