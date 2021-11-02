@@ -5,6 +5,4 @@
 #
 #############################
 
-# Fix the line of code below:
-
-Print Welcome to CompSci!
+# Write your code here:

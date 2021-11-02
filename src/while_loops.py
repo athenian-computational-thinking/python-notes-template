@@ -5,7 +5,4 @@
 #
 #############################
 
-# Fix the lines of code below:
-
-input(Enter your favorite ice cream flavor: ) = ice_cream
-print("I like {ice_cream} too!')
+# Write your code here:

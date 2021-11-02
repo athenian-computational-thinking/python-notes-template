@@ -4,12 +4,13 @@ name: Build and Test
 on:
   push:
     paths:
-      - 'src/fix_code_1.py'
-      - 'src/fix_code_2.py'
-      - 'src/fix_code_3.py'
-      - 'src/write_code_1.py'
-      - 'src/write_code_2.py'
-      - 'src/write_code_3.py'
+      - 'src/variables.py'
+      - 'src/print_input.py'
+      - 'src/functions.py'
+      - 'src/if_statements.py'
+      - 'src/for_loops.py'
+      - 'src/while_loops.py'
+      - 'src/lists.py'
 jobs:
 
   Style_test:
@@ -28,12 +29,14 @@ jobs:
       id: style
       continue-on-error: true
       run: |
-        flake8 src/fix_code_1.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/fix_code_2.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/fix_code_3.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/write_code_1.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/write_code_2.py >> .github/ISSUE_TEMPLATE/style-issues.md
-        flake8 src/write_code_3.py >> .github/ISSUE_TEMPLATE/style-issues.md
+        flake8 src/print_input.py >> .github/ISSUE_TEMPLATE/style-issues.md
+        flake8 src/variables.py >> .github/ISSUE_TEMPLATE/style-issues.md
+        flake8 src/functions.py >> .github/ISSUE_TEMPLATE/style-issues.md
+        flake8 src/if_statements.py >> .github/ISSUE_TEMPLATE/style-issues.md
+        flake8 src/for_loops.py >> .github/ISSUE_TEMPLATE/style-issues.md
+        flake8 src/while_loops.py >> .github/ISSUE_TEMPLATE/style-issues.md
+        flake8 src/lists.py >> .github/ISSUE_TEMPLATE/style-issues.md
+
 
     - name: Style fail message
       if: steps.style.outcome == 'failure'

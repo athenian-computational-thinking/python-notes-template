@@ -5,7 +5,4 @@
 #
 #############################
 
-# Fix the line of code below:
-
-geometry = math class
-print "My favorite class is (math_class)!"
+# Write your code here:
